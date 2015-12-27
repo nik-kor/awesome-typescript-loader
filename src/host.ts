@@ -28,9 +28,9 @@ export interface SyncResolver {
 }
 
 export interface ICompilerOptions extends ts.CompilerOptions {
-    noLib?: boolean;
+    noLib?: boolean; // undocumented
     instanceName?: string;
-    showRecompileReason?: boolean;
+    showRecompileReason?: boolean; // undocumented
     compiler?: string;
     emitRequireType?: boolean;
     library?: string;
@@ -45,7 +45,7 @@ export interface ICompilerOptions extends ts.CompilerOptions {
     usePrecompiledFiles?: boolean;
     useCache?: boolean;
     cacheDirectory?: string;
-    files?: any;
+    files?: any; // undocumented
     resolveGlobs?: boolean;
 }
 
